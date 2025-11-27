@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>FitMate – UI/UX Design</title>
+
+  <!-- Favicons -->
+  <link href="assets/img/sa.png" rel="icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="resume-page">
+
+  <header id="header" class="header d-flex align-items-center light-background sticky-top">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <h1 class="sitename">Sera</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html" class="active">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <div class="header-social-links">
+        <a href="https://www.facebook.com/share/1FkzybV2qD/" target="_blank"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/sera_arakelian?igsh=MTlvNHFjYXJldG1qeA==" target="_blank"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/sera-arakelian-47b574292/" target="_blank"><i class="bi bi-linkedin"></i></a>
+      </div>
+
+    </div>
+  </header>
+
+<main class="main">
+
+<section id="portfolio-details" class="portfolio-details section">
+  <div class="container">
+
+    <!-- Title -->
+    <h2 class="mb-4">Computer Vision – Hairstyle Image Retrieval System</h2>
+
+    <!-- Intro -->
+    <p class="lead mb-5">
+      A deep-learning-based content-based image retrieval (CBIR) system developed to help users search 
+      for hairstyles using an image instead of text. The system detects the hair region, extracts visual 
+      features using CNNs, and returns similar hairstyles from an artist-uploaded database.
+    </p>
+
+    <!-- PROJECT INFORMATION -->
+    <div class="row gy-4 mb-5">
+
+      <div class="col-lg-4">
+        <div class="portfolio-info">
+          <h3>Project Information</h3>
+          <ul>
+            <li><strong>Category:</strong> Computer Vision</li>
+            <li><strong>Tools:</strong> Python, OpenCV, TensorFlow, NumPy</li>
+            <li><strong>Model:</strong> CNN / ResNet feature extraction</li>
+            <li><strong>Role:</strong> Machine Learning Engineer</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- DESCRIPTION -->
+      <div class="col-lg-8">
+        <div class="portfolio-description">
+
+          <h3>Problem Statement</h3>
+          <p>
+            Clients often struggle to communicate desired hairstyles verbally. Text-based search does not 
+            capture the complexity of visual styles, creating miscommunication between clients and stylists.
+          </p>
+
+          <h3>Objective</h3>
+          <p>
+            The system enables users to upload a hairstyle image and receive visually similar results using 
+            computer vision and deep learning techniques.  
+          </p>
+
+          <h3>Main Features</h3>
+          <ul>
+            <li>Preprocessing of input images (hair segmentation, resizing, normalization)</li>
+            <li>Deep feature extraction using a pre-trained CNN (e.g., ResNet)</li>
+            <li>Similarity search using cosine distance on feature vectors</li>
+            <li>Retrieval of visually similar hairstyles from database</li>
+            <li>Efficient performance optimized for real-time querying</li>
+          </ul>
+
+          <h3>Pipeline Overview</h3>
+          <ul>
+            <li>Input image → preprocessing (hair detection)</li>
+            <li>Feature extraction using CNN</li>
+            <li>Vector comparison with stored embeddings</li>
+            <li>Top-K similar hairstyle outputs</li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+</main>
+
+<footer id="footer" class="footer light-background">
+  <div class="container">
+    <div class="copyright text-center">
+      <p>© Copyright <strong class="px-1 sitename">Sera</strong> All Rights Reserved</p>
+    </div>
+    <div class="social-links d-flex justify-content-center">
+      <a href="#"><i class="bi bi-facebook"></i></a>
+      <a href="#"><i class="bi bi-instagram"></i></a>
+      <a href="#"><i class="bi bi-linkedin"></i></a>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
